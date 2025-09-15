@@ -11,7 +11,7 @@ var userStates = make(map[int64]string)
 var userData = make(map[int64]map[string]string)
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("8181852781:AAGjz8EaeNceExfMWvnEzXtHckCj2U98RA4")
+	bot, err := tgbotapi.NewBotAPI("ТОКЕН")
 	if err != nil {
 		log.Panic(err)
 	}
